@@ -1,0 +1,31 @@
+ResizablePacMan
+This program will provide the PacMan information necessary to run 
+ResizablePacManController and will not show anything on its own. It provides
+the information on how to create a PacMan (with the center at the place the
+mouse clicks), how it will grow and shrink, what color it would be (depending
+on the quadrant), and how it spins (counterclockwise). 
+
+ResizablePacManController
+This program will use the PacMen information provided by ResizablePacMan to 
+actually open the applet and put the PacMen on the canvas. When you run the 
+program, two lines (one vertical, one horizontal) will appear through the 
+middle of the canvas. You can press on either line (or both at the same time)
+and drag it around, but you cannot pass a 5-pixel border on each of the four
+edges of the canvas. Changing the size of the canvas will make the lines move
+in proportion as well so they will adjust to the size of the canvas while
+keeping the four quadrants proportional. When you click on the canvas, a 
+PacMan will appear. THe PacMan will be cyan if it is in Quadrant 1, magenta 
+if it is in Quadrant 2, yellow if Quadrant 3, and black in Quadrant 4. Each 
+PacMan created will spin counterclockwise and alternate between growing and 
+shrinking. Having the mouse exit the canvas will not do anything to the applet.
+
+1. cp ../../../fubar.java .
+2. The command shows the manual for concatenation.
+3. Type rm -f ~/*.html
+4. Typing "G" jumps to the end of the file.
+5. :q means to quit (will not work if changes were made to file without 
+saving) while :q! means to quit without writing.
+6. A constructor signature must have the access modifier (private, public) 
+and the name of the class. 
+7. Overloading is when methods have the same name but different parameters. 
+ 

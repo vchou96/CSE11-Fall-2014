@@ -1,0 +1,53 @@
+Triangles
+This program will draw a series of 8 triangles (made of either asterisks 
+or spaces) whose number of rows correspond to the number (larger than 1)
+inputted by the user. Upon running the program, the program will ask for a
+number to be inputted. If the number inputted is 1 or smaller, the program
+will state that the number must be larger than 1 (since you cannot form a 
+triangle with just 1 row or less). To test the program and ensure that it 
+ran properly, I tested numbers that were both within and outside the range 
+of valid numbers, meaning negative numbers, 0, 1, and numbers larger than 
+1. If the program produced a series of 8 triangles that matched the pattern 
+of asterisk-space-asterisk-space-space-asterisk-space-asterisk triangles 
+(starting from the left) and contained a number of rows that matched the 
+number inputted, then the program should be correct.       
+
+FlippingMickey
+This program is similar to Mickey in that it creates a Mickey Mouse-shaped 
+silhouette that can respond to different mouse events. Upon running the 
+program, the applet will open along with 3 lines of instructions on the 
+canvas. When the mouse is first clicked, a mickey silhouette appears with
+the center of its face located where the mouse was clicked. Like Mickey, 
+a second silhouette will not appear if one has already been created. The 
+face can be dragged if the user clicks on the face and holds down the mouse
+as he moves it around. 
+In addition to the functions from Mickey, this program will flip the 
+silhouette depending on where the Mickey is pressed. If the left ear is 
+pressed for longer than 500 milliseconds and released, the silhouette will 
+flip left and use the middle of the left ear as the axis. If the right ear 
+is pressed for longer than 500 milliseconds and released, it will flip right
+and use the middle of the right ear as the axis. If the face portion is 
+pressed for longer than 500 milliseconds and released, the mouse will flip 
+downwards using the middle of the face as the axis (it will appear as if only
+the ears moved down). If the same action is repeated for the face, it will 
+flip back up. The flipping of the ears and face can be done one after another
+to flip the Mickey up/down and then left/right, or vice versa. When the mouse
+leaves the canvas, the Mickey will disappear and the instructions will reappear
+once the mouse re-enters the canvas. After that, a new Mickey can be created 
+with a click. To test the program, all the different mouse events (clicking, 
+dragging, flipping, pressing, exit, re-enter) were tested in multiple orders 
+to ensure that there were no dangling sections that would affect later steps.   
+
+1. To jump to a certain line number, type ":" and then type the number. Press
+":20" to go to line 20.
+2. To set auto-indentation, type ":set autoindent". To turn it off, type 
+":set noautoindent".
+3. The "u" command undos the last change.
+4. To move forward a word, press "w". To go back a word, press "b".
+5. To remove all class files, type "rm *.class"
+6. To remove a Unix directory when the directory is empty, type "rmdir 
+(directoryname)". To remove a directory when it has files, type 
+"rm -rf(directoryname)". The "f" in the second command means force removal 
+and the extra "r" means to recursively remove everything inside the directory.
+7. To clear a Unix terminal screen, type "clear".
+

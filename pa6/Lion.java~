@@ -1,0 +1,50 @@
+import objectdraw.*;
+import java.awt.Color;
+
+/*Name: Lion
+Purpose: Includes all the information for the lion card and when it is selected.
+Parameter: None*/
+public class Lion implements AnimalCard {
+  VisibleImage myLion;
+  FramedRect outline;
+  private static final String LION_SPEAK = "Roar";
+  private int locationY = 100;
+  private Location point;
+  private Color color;
+
+  /*Name: Lion
+  Purpose: Contains information for the lion image and its border.
+  Parameter: Image, Location, DrawingCanvas*/
+  public Lion(java.awt.Image lion, Location point, DrawingCanvas canvas) { 
+    myLion = new VisibleImage(lion, 0, locationY, canvas);
+    outline = new FramedRect(0, locationY, myLion.getWidth(), myLion.getHeight(),
+                               canvas);
+  }
+  
+  public String speak() {
+    return LION_SPEAK;
+  }
+  public boolean contains(Location point) {
+    if (contains(point)){
+      return true;
+    } 
+    else {
+      return false;
+    }
+  }
+  public void hide() {
+  }
+  public void show() {
+  }
+  public void showHighlight(Color color){
+  }
+  public void hideHighlight(){
+  }
+  public Color getHighlightColor(){
+    return color;
+  }
+
+
+}
+  
+

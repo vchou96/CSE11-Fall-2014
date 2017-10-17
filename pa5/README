@@ -1,0 +1,40 @@
+This program will build upon the ResizablePacMan/ResizablePacManController
+programs and add buttons and sliders for the user to manipulate different
+features of the Pacman. When the applet is first opened, the program will 
+have the horizontal and vertical lines centered at the middle of the canvas.
+Clicking on the canvas will create a PacMan, and its color depends on the 
+quadrant it is in relative to the lines (1st quadrant is cyan, 2nd quadrant 
+is magenta, 3rd quadrant is yellow, 4th quadrant is black. The lines can be 
+dragged with the mouse to change the quadrants the PacMen are in and 
+therefore their colors. Whenever the PacMen are created, they will already 
+start spinning clockwise and resizing themselves like the previous 
+ResizablePacMan/ResizablePacManController programs. However, this time there
+will be two additional panels on the applet: one across the top and one 
+across the bottom.  In addition, the PacMen are no longer stationary and can
+ be dragged around (also with the lines at the same time). 
+
+The top panel is named "Resizable PacMen Controls" and 
+contains three buttons: the "Start", "Stop", and "Clear All" buttons. The 
+"Start" button will start the process of PacMen resizing (grow and shrink) 
+and spinning clockwise while the "Stop" button will make all the PacMen 
+freeze. The "Clear All" button will make all the PacMen created disappear 
+and leave only the lines. After a button is clicked once, clicking on it 
+again will have no visible changes. 
+
+The bottom panel provides a slider that 
+the user can move around to make the PacMen move faster and slower. When 
+created, the PacMen first move at a speed of 50.  Dragging the knob to the 
+right will make the PacMen grow and shrink and spin faster while dragging 
+it to the left will make them slower. Text on the left of the slider will 
+state what the speed of the PacMen is at. The minimum speed possible is 1 
+while the maximum speed possible is 100.   
+
+1. To open the file from the command line and go directly to a specific line, 
+type vim +LineNumber fileName.
+2. :syntax off turns off the coloring, :syntax on turns it on.
+3. Type :help.
+4. The stack holds the local variables and formal parameters.
+5. The only things that can be declared in an interface are public static 
+final constants and method headers.  
+
+

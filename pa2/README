@@ -1,0 +1,20 @@
+TwoLargest
+This program will identify the largest and second largest distinct integers in a series of inputted numbers. First, the program runs and asks for the user to input any amount of numbers. The program takes integers as input and is expected to return integers as output. When the user is done inputting, he/she was press <Ctrl> + D. The program then counts to determine how many numbers are inputted. If no numbers are inputted, the program will say that no numbers were inputted. If one number was inputted, the program will determine that to be the largest number since there is no other number to be compared to. If more than one number was entered, the program will determine the largest and second largest values and print them. The program ensures that the largest and second largest integers will not be repeated numbers.
+
+
+ThreeLargest
+This program is based off TwoLargest and operates largely in the same manner. Instead of stating the largest and second largest numbers in a series, however, it gives the largest, second largest, and third largest. If one number was inputted, that is the largest number. If two numbers were entered, the program will determine the largest and second largest values. If three or more numbers are printed, the program will determine the largest, second largest, and third largest values and print them. The program ensures that the largest, second largest, and third largest integers will not be repeated numbers.
+
+
+Mickey
+This program will draw a Mickey Mouse-shaped silhouette that will respond to different mouse events. When the applet first opens, two lines of instructions will appear. Clicking anywhere on the canvas will make the instructions disappear and create one Mickey Mouse silhouette, with the mouse being at the center of the silhouette's face. Any clicks afterward will not create any more faces. The silhouette can be dragged anywhere on the canvas by grabbing (press and hold) the face or left/right ears. When the mouse exits outside the canvas, the mouse face will disappear. Upon entering the canvas again, the instructions will appear once more, and the entire process can be repeated.
+
+To ensure that only one face was created by the click, I made a function that will only create a silhouette after a mouse click if the mouse has not been clicked before. This prevents any additional faces from forming if one has already been created. To remove error messages, I had to ensure that each function would run only if all its variables had been created beforehand. For instance, the method that controls what happens after the mouse leaves the canvas includes variables for the face and ears (since they need to be hidden). Since there was a case that the face and ears had not been created on the canvas (if the mouse simply entered and left the canvas without any clicking), hiding face and ears that don't exist would not make sense. Thus, I made sure that any mouse event would only run after the silhouette was drawn on the canvas. This way, we can manipulate a Mickey face that is guaranteed to be there.
+
+1. The Linux command to rename a file is "mv", while the command to copy a file is "cp".
+2. When you select text and middle click in insert mode, the highlighted text will copy and paste into the place where you middle clicked over. 
+3. The name of the application is the terminal.
+4. To enter insert mode in vim, you can either press "i", "a", or "o".
+5. To switch from insert mode to command mode, press the "Esc" key.
+6. When you type ":split", the screen will split into two panes and you can edit the same code on either one.
+7. A method is a series of statements that runs an operation when the user calls its name.

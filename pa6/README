@@ -1,0 +1,49 @@
+Vanessa Chou
+cs11fbv
+November 12, 2014
+
+AnimalSpeak
+This program is a game where you must identify a sound with the animal
+that makes the sound. When the applet first opens, 6 pictures will be
+presented in a 3x2 format. A question randomly asking which of the 6 
+animals makes a certain noise will be located at the bottom of the screen.
+
+If you click on the wrong animal, a red border will appear aound the picture
+you clicked on and the text "WRONG! - Try Again!" will appear in red above
+the question. 
+If you click anywhere in the applet that is not on a picture, 
+any borders or text except for the question will disappear. 
+If you click on the correct animal (i.e. the Lamb when the question asks "baa" 
+or the Kitty when the question asks "meow), the animal will have a green 
+border appear around the picture and at the bottom the statement "CORRECT!- 
+click mouse to restart" appears in green. Clicking the mouse again will 
+create a new game and the answer/border/text from the previous game will 
+disappear.
+
+   
+Memory
+This program is a game where you must match 6 pairs of face down cards.
+Upon opening the applet, the cards are face down in a 3x4 formation and
+you can see their black borders. If you click on any card, it will flip 
+over and show one of 6 animal pictures. If you flip another card over,
+it will compare the two cards that have been flipped over. 
+
+If they are not the same animal, both animals will have a red border 
+appear aruond them. Clicking anywhere on the screen again will make both 
+of them face down again and the red borders disappear and so you can 
+choose another card again. 
+If they are the same animal, both cards will have a green border appear 
+around them and the sound the animal makes will appear in text along the 
+bottom. The cards will stay face-up with the borders and you can start 
+matching new pairs. If you click on a face-up over card it will do 
+nothing. Clicking on anywhere on the screen other than a card will do 
+nothing.
+
+
+1. Type 0 to go to the front of the line, type $ to go to the back.
+2. Press v.
+3. 
+4.
+5. It overrides a method in the same name and parent class.
+6. cut -5-13 foo
+
