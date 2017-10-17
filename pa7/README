@@ -1,0 +1,57 @@
+ReverseRecurse
+This program takes a series of numbers and reverses them in multiple ways. 
+First, it will ask you to enter a maximum number of integers that will be 
+in the series. If you enter a 0 or a number smaller than 0, the program 
+tell you to enter a number larger than 0 and ask for the maximum number 
+again. If you enter a number greater than 0, it will then ask you to 
+enter the series of integers. Once the amount of integers reaches the 
+max number, the program will then print the list of integers 6 times. 
+
+The first time will show the numbers in the order they were typed; the 
+second will directly reverse the list and so the numbers are printed in 
+backwards order. The third will directly reverse it again and so the 
+numbers appear back in original order. The fourth will show a copy of 
+the list in the same order it was in. The fifth will make two new lists 
+each time; it will flip the first and last numbers and put them into the 
+first new list and put the rest into the second new list; at the end, it 
+will add them all together so the actual printed statement looks the same 
+as the second printed list. The sixth will do the same thing as the first 
+but use the flipped list as the base so the final printed list is back in 
+the original order. 
+
+The 1st, 3rd, 4th, and 6th statements will appear in the order that you typed
+in while the 2nd and 5th will be in reverse order. If you enter a number of 
+integers less than the max number you indicated, it will only take those 
+integers into the list. Typing letters when you should have entered integers
+will make the program print EMPTY ARRAY.    
+
+
+Slots
+This program will create a virtual slot machines game. The applet will 
+feature a title on top and a "Click to spin" button at the bottom. In the 
+middle are three slot wheels that all display the same 4 images: Sungod, 
+the Warren Bear, Triton, and Geisel Library. Each slot wheel has a black 
+outline around it. Pressing the "Click to spin" button will make the wheels 
+start "spinning"; the leftmost wheel will stop first, the middle wheel second, 
+and the rightmost wheel last.  In actuality, the "spinning wheels" are instead
+alternating images and half-images that make it look as if it is spinning. 
+Landing three of the same image counts as a win.  
+
+
+SlotWheel
+This program provides the wheels to be used by the Slots program. Each wheel 
+has a number of "ticks" that makes it spin for a certain amount of time, like 
+a real casino slots wheel; the more ticks it has, the longer it will spin 
+for. Information provided here will also make sure that the wheels stop on 
+an actual picture and not a half-image.
+
+
+
+1. :set shiftwidth=2 will set the indent to 2 spaces while N>> indents N 
+   consecutive lines. Likewise, while N<< de-indents N consecutive lines.
+2. >% indents the block one level when the cursor is on the open or close 
+   bracket while <% de-indents it.
+3. Type "O" to go down a line and enter insert mode.
+4. 1>output redirects the output file to "output".
+5. ints= new int[]{1,3,5,7,9};
+

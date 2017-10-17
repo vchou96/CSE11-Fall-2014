@@ -1,0 +1,26 @@
+CS11Turtle_Threaded.java
+This program makes 15 turtles that draws the words "CS11FBV FALL 2014" in 
+blue.  The turtles all appear on the screen at the same time and each 
+turtle is responsible for drawing one letter. The words appear on three 
+separate lines and are centered on the screen.
+
+Rational.java
+This program allows for numbers to be added, subtracted, multiplied, or 
+divided, even if results are in fraction form. The program is then run 
+against a series of tests to see if they pass or fail. Both postive and 
+negative numbers can be used as input, and the output can be fractions 
+as well as negative and positive numbers.
+
+1. -n. cat -n readFile
+2. cat -A readFile. $ indicates end of line, ^I indicates tab, and 
+trailing white space is when the $ is separated from the last character 
+by space. 
+3. echo "standard output". cat -n - readFile displays the standard output 
+with line numbers. A space divides the beginning of line and line numberm
+while a tab divides line number from first character of line.
+4. :set number.
+5. :set list . ^I signals an indent. $ signals the end of a line, and if 
+there is trailing white space the $ will have space between it and the 
+last character
+6. :%s/fun/amazing/g for entire document,:%s/fun/amazing/ for first occurence.
+

@@ -1,0 +1,18 @@
+TestMickey
+This program uses the shape instructions we made to draw a Mickey mouse head.
+Only circles will be used. The applet will contain the black mouse silhouette
+and have a line for each of the circles describing the shape, center, and 
+radius. If it does not run properly, the words "An Exception Occured! Check 
+the terminal window for details!" will appear in red on the applet. In these 
+cases, the silhouette may be drawn partially or not at all. 
+
+TestHouseWithDelays
+This program uses multiple instructions for shapes to draw a green house. 
+The house is made of rectangles (the body, chimney, and door), squares
+(windows), lines(window panes), triangles(roof), and a circle (doorknob). 
+Below the house will be individual descriptions of each instance of a shape, 
+detailing the coordinates or sizes of the shape.  If it doesn't run properly 
+an error message will appear on the screen.
+
+1. 
+2. 

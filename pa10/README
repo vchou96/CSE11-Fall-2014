@@ -1,0 +1,31 @@
+TestMickey
+This program uses the shape instructions we made to draw a Mickey mouse head.
+Only circles will be used. The applet will contain the black mouse silhouette
+and have a line for each of the circles describing the shape, center, and 
+radius. If it does not run properly, the words "An Exception Occured! Check 
+the terminal window for details!" will appear in red on the applet. In these 
+cases, the silhouette may be drawn partially or not at all. 
+
+TestHouseWithDelays
+This program uses multiple instructions for shapes to draw a green house. 
+The body of the house is made of a rectangle filled with green. The chimney 
+is a rectangle filled with red. The door is a rectangle filled with yellow. 
+The left window is a square and the right window is a copy of the left. 
+The window panes are made of lines, and the roof is a triangle filled with 
+green. Triangles are made with 3 lines. The doorknob is a circle.
+Below the house will be individual descriptions of each instance of a shape, 
+detailing the coordinates or sizes of the shape. If it doesn't run properly 
+an error message will appear on the screen.
+
+1. You can test by calling exception if 
+line1.getStart()==line2.getStart() || line2.getStart()==line2.getEnd()
+The == checks if the start and end points of the 2 lines are in the same 
+memory location. If they are in the same memory location, you made a 
+shallow copy.
+
+2. Test by calling exception if
+line1.getStart()==line2.getStart() || line1.getStart()==line2.getEnd() 
+|| point1.getX() == point2.getX() || point1.getY() == point2.getY()     
+The == checks if the points' X's and Y's and the start and end points of 
+the 2 lines are in the same memory location. If they are in the same memory
+location, you made a shallow copy.

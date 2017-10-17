@@ -1,0 +1,36 @@
+CrittersController
+This program creates an applet where you can make critters that interact
+differently with one another. The applet has three buttons on the top and 
+three on the bottom. 
+The start button causes the critters (once created) to start moving; if 
+the button is clicked and there are less than 2 critters on the canvas, 
+the status message will ask the user to make 2 or more critters. If it 
+is clicked and there are 2 or more on the canvas, the status says 
+"Simulation is running". The stop button freezes them and causes the 
+status message to say "Simulation is stopped". The clear button removes 
+all critters. 
+The Chaser button creates chasers, which are magenta circles that will 
+chase other critters except for other Chasers. The Runner button creates 
+runners, which are cyan squares that run away from other critters. The 
+Random button creates randoms, which are orange plus signs that randomly 
+move aroudn the canvas. To actually make the Chaser/Runner/Random, first 
+click the button and then click anywhere on the canvas to make the critter 
+appear (its center will be where the mouse was clicked). Critters cannot 
+move outside the boundaries of the screen. 
+
+
+1. Rather than making separate methods for the same shapes with different 
+colors, she can have just 2 methods, one called drawCircle() and one called 
+drawSquare(). The methods can take color as a formal parameter so when she 
+calls the methods as drawCircle(Color.red), drawCircle(Color.blue), 
+drawSquare(Color.yellow), drawSquare(Color.green) it is the equivalent of 
+the 4 original methods.
+2. Java abstract class can have method definitions while interfaces cannot. 
+Fields in interfaces are automtically public and static and final in 
+interfaces but not necessarily in abstract classes.
+3. Java abstract classes and interfaces cannot be instantiated and they can 
+have method headers.
+4. mkdir -p/fooDir/barDir
+5. vim -p *.java
+
+
